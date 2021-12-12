@@ -1,6 +1,6 @@
 [class^="col"] {
   min-height: 60px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 section {
@@ -9,15 +9,35 @@ section {
 
 /* HEADER */
 
+header {
+  min-height: 80px;
+}
+
 /* SPOTLIGHT */
 
+#spotlight {
+  min-height: 400px;
+}
+
 /* PORTFOLIO */
+
+.img-space {
+  min-height: 300px;
+}
 
 /* ABOUT */
 
 /* CONTACT */
 
 /* FOOTER */
+
+.footer-top {
+  min-height: 300px;
+}
+
+.footer-bottom {
+  min-height: 150px;
+}
 
 /* BACKGROUND COLORS */
 
